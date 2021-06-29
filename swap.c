@@ -13,7 +13,7 @@ int swap_max( int arr[],int l, int n)
  
  int ssort(int arr[],int l)
  { for(int i=o;i<l;i++)
-   swap_max(arr,l,i);
+   {swap_max(arr,l,i);
    }
    printf("Sorted Array \n");
    for(int i=0;i<l;i++)
